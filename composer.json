@@ -1,0 +1,22 @@
+{
+  "name":"zhengniu/my-frame",
+  "description":"PHP Framework",
+  "type":"Framework",
+  "keywords":[
+    "PHP",
+    "PHP Framework"
+  ],
+  "require":{
+    "php":">=7.0.12",
+    "filp/whoops":"*",
+    "symfony/var-dumper":"*",
+    "catfan/medoo":"*",
+    "twig/twig":"*"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
