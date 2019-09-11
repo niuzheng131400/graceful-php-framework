@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout.php" %}
 {% block content %}
 {{data}}
 {% endblock %}

@@ -10,31 +10,29 @@
 
 namespace app\ctrl;
 
-use app\model\userModel;
-use core\lib\model;
+use app\model\exampleModel;
 use core\myFrame;
 
-class indexCtrl extends myFrame
+class exampleCtrl extends myFrame
 {
     /**
      * @throws \Exception
      */
     public function index()
     {
-      /*
         //简单调用model操作数据库
-        $model = new userModel();
+        /*$model = new exampleModel();
         debug($model->getAll());
         dump($model->getOne(1003));
         $data = ['class' => 1, 'grade' => 2, 'score' => 98, 'username' => '王五1'];
         $ret = $model->add($data);
+        dump($ret);
         //更新
         $ret = $model->setOne(1003, $data);
-        dump($ret);
-      */
-        $data = "MY_Frame";
+        dump($ret);*/
+        $data = "example";
         $this->assign('data', $data);
-        $this->display('index.html');
+        $this->display('example.php');
     }
 
     /**
@@ -42,10 +40,10 @@ class indexCtrl extends myFrame
      * @throws \Twig\Error\RuntimeError
      * @throws \Twig\Error\SyntaxError
      */
-    public function test()
+    public function example()
     {
-        $data = 'test';
+        $data = 'example1';
         $this->assign('data', $data);
-        $this->display('test.html');
+        $this->display('example1.php');
     }
 }

@@ -12,12 +12,12 @@ namespace app\model;
 
 use core\lib\model;
 
-class userModel extends model
+class exampleModel extends model
 {
     /**
      * @var string
      */
-    public $table = "user";
+    public $table = "example";
 
     /**
      * @return array|bool

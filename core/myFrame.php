@@ -21,8 +21,10 @@ class myFrame
      */
     static public function run()
     {
-        date_default_timezone_set("PRC");
-        \core\lib\log::init();
+        //TODO　加载用户自定义配置
+        session_start();//开启session
+        date_default_timezone_set("PRC");//设置时区
+        \core\lib\log::init();//初始化日志
         $route = new \core\lib\route();
         $ctrlClass = $route->ctrl;
         $action = $route->action;
@@ -80,6 +82,7 @@ class myFrame
      */
     public function display($file)
     {
+        $name = $file;
         $file = APP . '/views/' . $file;
         if (is_file($file)) {
 //            extract($this->assign);
@@ -88,9 +91,9 @@ class myFrame
             $loader = new \Twig\Loader\FilesystemLoader(APP . '/views');
             $twig = new \Twig\Environment($loader, [
                 'cache' => MY_FRAME . '/log/twig',
-                'debug' => DEBUG
+                'debug' => DEBUG,
             ]);
-            $template = $twig->load('index.html');
+            $template = $twig->load($name);
             $template->display($this->assign ? $this->assign : '');
         }
     }

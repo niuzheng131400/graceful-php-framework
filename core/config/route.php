@@ -8,6 +8,6 @@
  * 路由配置文件
  */
 return [
-    'CTRL' => 'index',
+    'CTRL' => 'default',
     'ACTION' => 'index'
 ];

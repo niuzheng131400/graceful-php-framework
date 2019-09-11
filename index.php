@@ -46,5 +46,7 @@ include CORE.'/common/function.php';
 include CORE.'/myFrame.php';
 //自动加载类
 spl_autoload_register('\core\myFrame::load');
+//创建项目脚手架
+include CORE.'/common/build.php';
 //启动框架
 \core\myFrame::run();
