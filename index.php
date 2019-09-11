@@ -28,12 +28,12 @@ define('DEBUG', true);
 //是否开启调试模式
 if (DEBUG) {
     //错误类展示美化
-    $whoops = new \Whoops\Run;
-    $errorTitle = "MY_Frame框架出错了!";
-    $option = new \Whoops\Handler\PrettyPageHandler;
-    $option->setPageTitle($errorTitle);
-    $whoops->prependHandler($option);
-    $whoops->register();
+//    $whoops = new \Whoops\Run;
+//    $errorTitle = "MY_Frame框架出错了!";
+//    $option = new \Whoops\Handler\PrettyPageHandler;
+//    $option->setPageTitle($errorTitle);
+//    $whoops->prependHandler($option);
+//    $whoops->register();
     ini_set('display_error', 'On');
 } else {
     ini_set('display_error', 'Off');

@@ -43,6 +43,7 @@ class file
         if (!is_dir($dir)) {
             mkdir($dir, '0777', true);
         }
-        return file_put_contents($dir . '/' . $file . '.php', date('Y-m-d H:i:s') . '---' . json_encode($message) . PHP_EOL, FILE_APPEND);
+        $fileName = $dir . '/' . $file . '.php';
+        return file_put_contents($fileName, date('Y-m-d H:i:s') . '---' . json_encode($message) . PHP_EOL, FILE_APPEND);
     }
 }

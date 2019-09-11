@@ -28,7 +28,7 @@ class myFrame
         $route = new \core\lib\route();
         $ctrlClass = $route->ctrl;
         $action = $route->action;
-        $ctrFile = APP . '/ctrl/' . $ctrlClass . 'Ctrl.php';
+        $ctrFile = APP . DIRECTORY_SEPARATOR . 'ctrl' . DIRECTORY_SEPARATOR . $ctrlClass . 'Ctrl.php';
         $cltrClass = "\\" . MODULE . "\ctrl\\" . $ctrlClass . 'Ctrl';
         if (is_file($ctrFile)) {
             include $ctrFile;
@@ -52,7 +52,7 @@ class myFrame
         if (isset($classMap[$class])) {
             return true;
         } else {
-            $file = MY_FRAME . '\\' . $class . '.php';
+            $file = MY_FRAME . DIRECTORY_SEPARATOR . $class . '.php';
             if (is_file($file)) {
                 include $file;
                 self::$classMap[$class] = $class;
@@ -87,7 +87,7 @@ class myFrame
         if (is_file($file)) {
 //            extract($this->assign);
 //            include $file;
-            require_once MY_FRAME . '/vendor/autoload.php';
+            require_once MY_FRAME .DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_SEPARATOR.'autoload.php';
             $loader = new \Twig\Loader\FilesystemLoader(APP . '/views');
             $twig = new \Twig\Environment($loader, [
                 'cache' => MY_FRAME . '/log/twig',
