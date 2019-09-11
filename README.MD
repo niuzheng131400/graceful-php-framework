@@ -1,8 +1,23 @@
 ### MYFrame
+-
 - Simple PHP Framework
 #### Requirements
+-
   - PHP > 5.6.0
+#### 版本
+- 
+- 1.0.0.1
+    - 加入框架脚手架。
+    - 删除项目案例app。
+    - 更新1.0.0.0版本的实图加载默认问题。
+    - 更新
+- 1.0.0.0
+    - 框架的基础文件
+    - 入口
+    - 路由解析
+    - 控制器、模型、视图调用
 #### Frame Structure
+-
     .
     ├── README.MD
     ├── app
