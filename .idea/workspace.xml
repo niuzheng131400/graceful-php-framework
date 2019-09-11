@@ -2,529 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f279e135-b62f-4b32-9816-a4801020c55e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/brand/bootstrap-social-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/brand/bootstrap-social.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/bootstrap-themes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/bootstrap-themes@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/album.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/album@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/blog.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/blog@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/carousel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/carousel@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/checkout.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/checkout@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/cover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/cover@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/dashboard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/dashboard@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/floating-labels.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/floating-labels@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/grid.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/grid@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/jumbotron.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/jumbotron@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/navbar-bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/navbar-bottom@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/navbar-fixed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/navbar-fixed@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/navbar-static.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/navbar-static@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/navbars.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/navbars@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/offcanvas.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/offcanvas@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/pricing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/pricing@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/product.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/product@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/sign-in.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/sign-in@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/starter-template.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/starter-template@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/sticky-footer-navbar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/sticky-footer-navbar@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/sticky-footer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/examples/sticky-footer@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/favicons/android-chrome-192x192.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/favicons/android-chrome-512x512.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/favicons/apple-touch-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/favicons/favicon-16x16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/favicons/favicon-32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/favicons/mstile-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/favicons/mstile-150x150.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/favicons/mstile-310x150.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/favicons/mstile-310x310.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/favicons/mstile-70x70.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime/log/2019091200/log.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/.babelrc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/.browserslistrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/.eslintignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/.eslintrc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/.github/CODEOWNERS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/.github/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/.github/ISSUE_TEMPLATE/bug.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/.github/ISSUE_TEMPLATE/bug_report.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/.github/ISSUE_TEMPLATE/feature.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/.github/ISSUE_TEMPLATE/feature_request.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/.github/SUPPORT.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/.stylelintignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/.stylelintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/CNAME" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/CODE_OF_CONDUCT.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/Gemfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/Gemfile.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/_config.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/build/.eslintrc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/build/banner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/build/build-plugins.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/build/change-version.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/build/generate-sri.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/build/postcss.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/build/rollup.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/build/ship.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/build/svgo.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/build/vnu-jar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/dist/css/bootstrap-grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/dist/css/bootstrap-grid.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/dist/css/bootstrap-grid.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/dist/css/bootstrap-grid.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/dist/css/bootstrap-reboot.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/dist/css/bootstrap-reboot.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/dist/css/bootstrap-reboot.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/dist/css/bootstrap-reboot.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/dist/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/dist/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/dist/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/dist/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/dist/js/bootstrap.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/dist/js/bootstrap.bundle.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/dist/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/dist/js/bootstrap.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/dist/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/dist/js/bootstrap.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/alert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/alert.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/button.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/carousel.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/collapse.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/dropdown.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/index.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/modal.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/popover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/popover.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/scrollspy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/scrollspy.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/tab.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/toast.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/toast.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/tooltip.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/dist/util.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/src/alert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/src/button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/src/carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/src/collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/src/dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/src/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/src/modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/src/popover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/src/scrollspy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/src/tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/src/toast.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/src/tools/sanitizer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/src/tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/src/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/browsers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/integration/bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/integration/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/integration/rollup.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/karma.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/unit/.eslintrc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/unit/alert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/unit/button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/unit/carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/unit/collapse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/unit/dropdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/unit/modal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/unit/popover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/unit/scrollspy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/unit/tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/unit/toast.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/unit/tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/unit/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/visual/alert.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/visual/button.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/visual/carousel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/visual/collapse.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/visual/dropdown.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/visual/modal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/visual/popover.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/visual/scrollspy.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/visual/tab.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/visual/toast.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/js/tests/visual/tooltip.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/nuget/MyGet.ps1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/nuget/bootstrap.nuspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/nuget/bootstrap.sass.nuspec" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/package-lock.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/package.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_alert.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_badge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_breadcrumb.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_button-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_card.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_carousel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_close.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_code.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_custom-forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_dropdown.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_functions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_images.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_input-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_jumbotron.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_list-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_media.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_modal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_nav.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_navbar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_popover.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_print.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_progress.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_reboot.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_root.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_spinners.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_tables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_toasts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_tooltip.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_transitions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_type.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_utilities.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/bootstrap-grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/bootstrap-reboot.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/bootstrap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_alert.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_background-variant.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_badge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_border-radius.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_box-shadow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_breakpoints.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_caret.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_deprecate.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_float.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_gradients.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_grid-framework.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_hover.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_list-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_lists.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_nav-divider.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_reset-text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_resize.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_screen-reader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_size.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_table-row.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_text-emphasis.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_text-hide.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_text-truncate.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_transition.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/mixins/_visibility.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/utilities/_align.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/utilities/_background.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/utilities/_borders.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/utilities/_clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/utilities/_display.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/utilities/_embed.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/utilities/_flex.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/utilities/_float.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/utilities/_overflow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/utilities/_position.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/utilities/_screenreaders.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/utilities/_shadows.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/utilities/_sizing.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/utilities/_spacing.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/utilities/_stretched-link.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/utilities/_text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/utilities/_visibility.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/scss/vendor/_rfs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/.eslintrc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_data/breakpoints.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_data/browser-bugs.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_data/browser-features.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_data/colors.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_data/core-team.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_data/docs-versions.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_data/examples.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_data/grays.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_data/nav.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_data/theme-colors.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_data/translations.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/ads.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/analytics.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/bugify.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/callout-danger-async-methods.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/callout-info-mediaqueries-breakpoints.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/callout-info-prefersreducedmotion.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/callout-warning-color-assistive-technologies.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/callout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/docs-navbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/docs-sidebar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/example.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/favicons.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/icons/bootstrap-stack.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/icons/bootstrap.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/icons/download.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/icons/github.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/icons/import.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/icons/lightning.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/icons/menu.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/icons/opencollective.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/icons/placeholder.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/icons/slack.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/icons/twitter.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/scripts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/skippy.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/social.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_includes/stylesheet.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_layouts/default.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_layouts/docs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_layouts/examples.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_layouts/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/_layouts/simple.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/about/brand.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/about/license.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/about/overview.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/about/team.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/about/translations.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/brand/bootstrap-outline.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/brand/bootstrap-punchout.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/brand/bootstrap-solid.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/css/docs.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/css/docs.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/favicons/browserconfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/favicons/manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/img/favicons/safari-pinned-tab.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/js/docs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/js/src/application.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/js/src/ie-emulation-modes-warning.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/js/src/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/js/vendor/anchor.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/js/vendor/bs-custom-file-input.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/js/vendor/clipboard.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/js/vendor/jquery-slim.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/scss/_ads.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/scss/_algolia.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/scss/_anchor.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/scss/_brand.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/scss/_browser-bugs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/scss/_buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/scss/_callouts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/scss/_clipboard-js.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/scss/_colors.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/scss/_component-examples.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/scss/_content.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/scss/_footer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/scss/_masthead.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/scss/_nav.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/scss/_placeholder-img.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/scss/_sidebar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/scss/_skippy.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/scss/_syntax.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/assets/scss/docs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/browser-bugs.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/components/alerts.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/components/badge.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/components/breadcrumb.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/components/button-group.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/components/buttons.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/components/card.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/components/carousel.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/components/collapse.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/components/dropdowns.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/components/forms.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/components/input-group.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/components/jumbotron.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/components/list-group.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/components/media-object.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/components/modal.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/components/navbar.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/components/navs.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/components/pagination.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/components/popovers.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/components/progress.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/components/scrollspy.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/components/spinners.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/components/toasts.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/components/tooltips.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/content/code.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/content/figures.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/content/images.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/content/reboot.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/content/tables.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/content/typography.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/.stylelintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/album/album.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/album/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/blog/blog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/blog/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/carousel/carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/carousel/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/checkout/form-validation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/checkout/form-validation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/checkout/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/cover/cover.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/cover/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/dashboard/dashboard.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/dashboard/dashboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/dashboard/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/floating-labels/floating-labels.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/floating-labels/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/grid/grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/grid/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/jumbotron/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/jumbotron/jumbotron.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/navbar-bottom/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/navbar-fixed/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/navbar-fixed/navbar-top-fixed.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/navbar-static/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/navbar-static/navbar-top.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/navbars/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/navbars/navbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/offcanvas/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/offcanvas/offcanvas.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/offcanvas/offcanvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/pricing/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/pricing/pricing.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/product/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/product/product.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/sign-in/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/sign-in/signin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/starter-template/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/starter-template/starter-template.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/sticky-footer-navbar/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/sticky-footer-navbar/sticky-footer-navbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/sticky-footer/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/examples/sticky-footer/sticky-footer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/extend/approach.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/extend/icons.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/getting-started/accessibility.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/getting-started/best-practices.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/getting-started/browsers-devices.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/getting-started/build-tools.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/getting-started/contents.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/getting-started/download.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/getting-started/introduction.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/getting-started/javascript.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/getting-started/theming.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/getting-started/webpack.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/layout/grid.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/layout/overview.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/layout/utilities-for-layout.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/migration.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/utilities/borders.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/utilities/clearfix.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/utilities/close-icon.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/utilities/colors.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/utilities/display.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/utilities/embed.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/utilities/flex.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/utilities/float.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/utilities/image-replacement.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/utilities/overflow.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/utilities/position.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/utilities/screen-readers.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/utilities/shadows.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/utilities/sizing.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/utilities/spacing.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/utilities/stretched-link.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/utilities/text.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/utilities/vertical-align.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/4.3/utilities/visibility.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/docs/versions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/twbs/bootstrap/site/sw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/static/js/jquery-1.8.3.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/conf/config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/ctrl/defaultCtrl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/ctrl/exampleCtrl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/defaultModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/model/exampleModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/default.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/example.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/example1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layout.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/2019091015/log.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/2019091016/log.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/2019091017/log.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/2019091018/log.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/2019091108/log.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/2019091111/log.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/2019091112/log.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/2019091113/log.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/2019091114/log.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/2019091115/log.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/2019091123/log.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/twig/81/8131278e59e1e000749fecd4eba657004f0672be5b59f638fdfc92f845612ecd.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/twig/95/9524727c0cdb42c97a8cd5d6fda14af77ffc630cf5a8fbcb9669fcfaaf069eb1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/twig/bb/bbec0de340b7ab2ebd6713730675f9d085b4917385436e02823af6e4e2a4b873.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/twig/bc/bc9fc6e7dfff136b3392918a840e0415f7746bcb155f75b8c01808d0401915de.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/log/twig/c0/c01fef63bd7b83b4216047dfc9a92ff204dc1cd7e84f8bab75c78911bb550580.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/web/.htaccess" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/web/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/log/init/1.txt" afterPath="$PROJECT_DIR$/runtime/init/1.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/log/init/2.txt" afterPath="$PROJECT_DIR$/runtime/init/2.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/log/init/3.txt" afterPath="$PROJECT_DIR$/runtime/init/3.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/log/init/4.txt" afterPath="$PROJECT_DIR$/runtime/init/4.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/log/init/5.txt" afterPath="$PROJECT_DIR$/runtime/init/5.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/log/init/6.txt" afterPath="$PROJECT_DIR$/runtime/init/6.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/log/twig/e4/e487b917457f5028894d9a33980bcfe4d9deb08296cfc5cb59181e1249a66c9f.php" afterPath="$PROJECT_DIR$/runtime/twig/dd/ddbd746c09b3c94c3b0a7e5bf3ab4d57cc32a23106aff3e01d14b6ff52560131.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/MyFrame.iml" afterPath="$PROJECT_DIR$/.idea/MyFrame.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/common/build.php" afterPath="$PROJECT_DIR$/core/common/build.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/config/log.php" afterPath="$PROJECT_DIR$/core/config/log.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/myFrame.php" afterPath="$PROJECT_DIR$/core/myFrame.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.MD" afterPath="$PROJECT_DIR$/README.MD" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -535,7 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.MD" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="340">
+                <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -594,7 +86,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/R2.MD" />
-        <option value="$PROJECT_DIR$/README.MD" />
         <option value="$PROJECT_DIR$/core/lib/conf.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/init.php" />
@@ -606,6 +97,8 @@
         <option value="$PROJECT_DIR$/web/index.php" />
         <option value="$PROJECT_DIR$/core/lib/drive/log/file.php" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/1.json" />
+        <option value="$PROJECT_DIR$/README.MD" />
       </list>
     </option>
   </component>
@@ -656,13 +149,7 @@
             <path>
               <item name="MyFrame" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyFrame" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="MyFrame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyFrame" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -712,12 +199,12 @@
       <updated>1568082867405</updated>
       <workItem from="1568119534398" duration="6436000" />
       <workItem from="1568129257730" duration="45000" />
-      <workItem from="1568204999221" duration="8509000" />
+      <workItem from="1568204999221" duration="9868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14990000" />
+    <option name="totallyTimeSpent" value="16349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -831,17 +318,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-291">
-            <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1023,6 +499,25 @@
         <state relative-caret-position="120">
           <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="340">
+            <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

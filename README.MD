@@ -3,11 +3,16 @@
 #### Requirements
   - PHP > 5.6.0
 #### 版本
+- 1.0.0.2
+    - 引入bootstrap
+    - 修复MacOS下自动加载路径问题。
+    - 修改目录log->runtime
+    - 添加./web、web/robots.txt、web/static、web/static/css、web/static/images、web/static/js
+    - ./index.php移动到web/index.php、./.htaccess移动到web/.htaccess
 - 1.0.0.1
     - 加入框架脚手架。
     - 删除项目案例app。
     - 更新1.0.0.0版本的实图加载默认问题。
-    - 更新
 - 1.0.0.0
     - 框架的基础文件
     - 入口
@@ -16,35 +21,22 @@
 #### Frame Structure
     .
     ├── README.MD
-    ├── app
-    │   ├── ctrl
-    │   │   └── indexCtrl.php
-    │   ├── model
-    │   │   └── userModel.php
-    │   └── views
-    │       ├── index.html
-    │       ├── layout.html
-    │       └── test.html
     ├── composer.json
     ├── composer.lock
     ├── core
     │   ├── common
-    │   │   └── function.php
     │   ├── config
-    │   │   ├── database.php
-    │   │   ├── log.php
-    │   │   └── route.php
     │   ├── lib
-    │   │   ├── conf.php
-    │   │   ├── drive
-    │   │   ├── log.php
-    │   │   ├── model.php
-    │   │   └── route.php
     │   └── myFrame.php
-    ├── index.php
-    ├── log
-    │   └── twig
-    └── vendor  
+    ├── runtime
+    ├── vendor
+    └── web
+        ├── index.php
+        ├── robots.txt
+        └── static
+            ├── css
+            ├── images
+            └── js  
 - 说明
   - 为什么要开发自己的框架？
       - 为了达到更快的开发效率。
