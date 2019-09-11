@@ -1,5 +1,0 @@
-2019-09-12 00:21:02---"ctrl:default   action:index"
-2019-09-12 00:21:28---"ctrl:default   action:index"
-2019-09-12 00:21:28---"ctrl:default   action:index"
-2019-09-12 00:21:28---"ctrl:default   action:index"
-2019-09-12 00:21:28---"ctrl:default   action:index"

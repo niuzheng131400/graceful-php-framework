@@ -41,7 +41,11 @@ class file
     {
         $dir = $this->path . date('YmdH');
         if (!is_dir($dir)) {
-            mkdir($dir, '0777', true);
+           /* $old =umask(0);
+            mkdir($dir,0777);
+            umask($old);*/
+            mkdir($dir, 0777, true);
+            chmod($dir,0777);
         }
         $fileName = $dir . '/' . $file . '.php';
         return file_put_contents($fileName, date('Y-m-d H:i:s') . '---' . json_encode($message) . PHP_EOL, FILE_APPEND);
