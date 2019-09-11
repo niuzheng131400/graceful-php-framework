@@ -90,7 +90,7 @@ class myFrame
             require_once MY_FRAME .DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_SEPARATOR.'autoload.php';
             $loader = new \Twig\Loader\FilesystemLoader(APP . '/views');
             $twig = new \Twig\Environment($loader, [
-                'cache' => MY_FRAME . '/log/twig',
+                'cache' => MY_FRAME . '/runtime/twig',
                 'debug' => DEBUG,
             ]);
             $template = $twig->load($name);

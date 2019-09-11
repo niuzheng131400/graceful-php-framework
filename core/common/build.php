@@ -73,7 +73,7 @@ class build
      */
     static private function createExample()
     {
-        $init = MY_FRAME . DIRECTORY_SEPARATOR . 'log' . DIRECTORY_SEPARATOR . 'init' . DIRECTORY_SEPARATOR;
+        $init = MY_FRAME . DIRECTORY_SEPARATOR . 'runtime' . DIRECTORY_SEPARATOR . 'init' . DIRECTORY_SEPARATOR;
         $view = APP . DIRECTORY_SEPARATOR . 'views';
         $newFile = '';
         for ($i = 1; $i < 7; $i++) {

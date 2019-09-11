@@ -10,6 +10,6 @@
 return [
     'DRIVE' => 'file',
     'OPTION' => [
-        'PATH' => MY_FRAME.'/log/',
+        'PATH' => MY_FRAME.'/runtime/log/',
     ]
 ];
