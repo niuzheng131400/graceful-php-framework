@@ -17,29 +17,34 @@ class myFrame
 
     /**
      * 启动框架入口方法
+     *
      * @throws \Exception
      */
     static public function run()
     {
-        //TODO　加载用户自定义配置
-        session_start();//开启session
-        date_default_timezone_set("PRC");//设置时区
-        \core\lib\log::init();//初始化日志
-        $route = new \core\lib\route();
-        $ctrlClass = $route->ctrl;
-        $action = $route->action;
-        $ctrFile = APP . DIRECTORY_SEPARATOR . 'ctrl' . DIRECTORY_SEPARATOR . $ctrlClass . 'Ctrl.php';
-        $cltrClass = "\\" . MODULE . "\ctrl\\" . $ctrlClass . 'Ctrl';
-        if (is_file($ctrFile)) {
-            include $ctrFile;
-            $ctrl = new $cltrClass();
-            $ctrl->$action();
-            \core\lib\log::log('ctrl:' . $ctrlClass . '   ' . 'action:' . $action);
-        } else {
-            throw new \Exception('not found controller' . $ctrlClass);
+        try {
+            //TODO　加载用户自定义配置
+            session_start();//开启session
+            date_default_timezone_set("PRC");//设置时区
+            \core\lib\log::init();//初始化日志
+            \core\lib\constant::init();//引入常量
+            $route = new \core\lib\route();
+            $ctrlClass = $route->ctrl;
+            $action = $route->action;
+            $ctrFile = APP . DIRECTORY_SEPARATOR . 'ctrl' . DIRECTORY_SEPARATOR . $ctrlClass . 'Ctrl.php';
+            $cltrClass = "\\" . MODULE . "\ctrl\\" . $ctrlClass . 'Ctrl';
+            if (is_file($ctrFile)) {
+                include $ctrFile;
+                $ctrl = new $cltrClass();
+                $ctrl->$action();
+                \core\lib\log::log('ctrl:' . $ctrlClass . '   ' . 'action:' . $action);
+            } else {
+                throw new \Exception('not found controller' . $ctrlClass);
+            }
+        } catch (\Exception $ex) {
+            throw new \Exception($ex->getMessage());
         }
     }
-
     /**
      * 自动加载类方法
      * @param $class

@@ -72,3 +72,56 @@ function createFile($file, $content = '', $mode = 0755)
     return false;
 }
 
+//TODO get封装
+function g()
+{
+    return $_GET;
+}
+
+//TODO post封装
+function p()
+{
+    return $_POST;
+}
+
+/**
+ * TODO 验证类型待完善
+ * get && post 请求
+ *
+ * @param string $name 参数名
+ * @param string $defaultValue 默认值
+ * @param int $filter 是否验证类型
+ * @return string
+ */
+function gp($name, $defaultValue = '', $filter = 0)
+{
+    $_GET = array_change_key_case($_GET, CASE_LOWER);
+    $name = strtolower($name);
+    $v = isset ($_GET [$name]) ? $_GET [$name] : '';
+    if ($v == '') {
+        $_POST = array_change_key_case($_POST, CASE_LOWER);
+        $v = isset ($_POST [$name]) ? $_POST [$name] : '';
+    }
+    if ($v == '') {
+        return $defaultValue;
+    } else {
+        if ($filter) {
+            switch ($filter) {
+                case IS_INI:
+                    if (is_numeric($v)) {
+                        return $v;
+                    } else {
+                        return $defaultValue;
+                    }
+                    break;
+                case IS_STRING:
+                    break;
+                default:
+                    break;
+            }
+        }
+        return trim($v);
+    }
+}
+
+
