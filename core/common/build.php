@@ -40,7 +40,7 @@ class build
         //创建默认controller
         $ctrl = self::APPLICATION . DIRECTORY_SEPARATOR . 'ctrl' . DIRECTORY_SEPARATOR . 'defaultCtrl.php';
         if (!file_exists($ctrl)) {
-            $content = "<?php\r\n\r\nnamespace " . MODULE . "\ctrl;\r\n\r\nuse core\\myFrame;\r\n\r\nclass defaultCtrl extends myFrame\r\n" . "{\r\n" . "\tpublic function index()\r\n\t" . "{\r\n\t\t\$this->assign('data',[]);\r\n\t\$this->display('default.php');\r\n\t";
+            $content = "<?php\r\n\r\nnamespace " . MODULE . "\ctrl;\r\n\r\nuse core\\myFrame;\r\n\r\nclass defaultCtrl extends myFrame\r\n" . "{\r\n" . "\tpublic function index()\r\n\t" . "{\r\n\t$this->display('default.php');\r\n\t";
             $content .= "}\r\n" . "}";
             if (!createFile($ctrl, $content, 0777)) {
                 echo '<h2>' . $ctrl . '默认控制器创建失败！/(ㄒoㄒ)/~~</h2>';
