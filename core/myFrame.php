@@ -16,6 +16,17 @@ class myFrame
     public $assign;
 
     /**
+     * 初始化配置
+     */
+    static private function init()
+    {
+        //TODO　加载用户自定义配置
+        session_start();//开启session
+        date_default_timezone_set("PRC");//设置时区
+        \core\lib\log::init();//初始化日志
+        \core\lib\constant::init();//引入常量
+    }
+    /**
      * 启动框架入口方法
      *
      * @throws \Exception
@@ -23,11 +34,7 @@ class myFrame
     static public function run()
     {
         try {
-            //TODO　加载用户自定义配置
-            session_start();//开启session
-            date_default_timezone_set("PRC");//设置时区
-            \core\lib\log::init();//初始化日志
-            \core\lib\constant::init();//引入常量
+            self::init();
             $route = new \core\lib\route();
             $ctrlClass = $route->ctrl;
             $action = $route->action;
