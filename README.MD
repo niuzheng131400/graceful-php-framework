@@ -4,11 +4,10 @@
   - PHP > 7.0.0
 #### 版本
 - 1.0.0.2
-    - 引入bootstrap
     - 修复MacOS下自动加载路径问题。
     - 修改目录log->runtime
-    - 添加./web、web/robots.txt、web/static、web/static/css、web/static/images、web/static/js
-    - ./index.php移动到web/index.php、./.htaccess移动到web/.htaccess
+    - 添加web
+    - 修改入口文件到web/
 - 1.0.0.1
     - 加入框架脚手架。
     - 删除项目案例app。
