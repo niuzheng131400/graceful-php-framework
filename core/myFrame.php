@@ -94,7 +94,7 @@ class myFrame
                 'debug' => DEBUG,
             ]);
             $template = $twig->load($name);
-            $template->display($this->assign ? $this->assign : '');
+            $template->display($this->assign ? $this->assign : []);
         }
     }
 }
