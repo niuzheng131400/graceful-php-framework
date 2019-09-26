@@ -12,7 +12,7 @@
 
 namespace core\lib;
 
-use core\lib\conf;
+use Core\myFrame;
 
 class log
 {
@@ -23,8 +23,9 @@ class log
      */
     static public function init()
     {
-        $drive = conf::get('DRIVE', 'log');
-        $class = '\core\lib\drive\log\\' . $drive;
+        $logConfig = myFrame::getInstance()->config['main']['log'];
+        $drive = $logConfig['drive'];
+        $class = '\\core\\lib\\drive\\log\\' . $drive;
         self::$class = new $class();
     }
 

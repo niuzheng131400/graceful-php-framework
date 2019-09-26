@@ -10,7 +10,7 @@
 
 namespace core\lib\drive\log;
 
-use core\lib\conf;
+use core\myFrame;
 
 class file
 {
@@ -23,8 +23,8 @@ class file
      */
     public function __construct()
     {
-        $conf = conf::get('OPTION', 'log');
-        $this->path = $conf['PATH'];
+        $logConfig = myFrame::getInstance()->config['main']['log'];
+        $this->path = $logConfig['option']['path'];
     }
 
     /**

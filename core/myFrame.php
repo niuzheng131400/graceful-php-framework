@@ -10,47 +10,88 @@
 
 namespace core;
 
+use core\common\build;
+use Core\lib\config;
+use core\lib\log;
+
 class myFrame
 {
+    const COUNTER =  2;
+
     static public $classMap = [];
-    public $assign;
+    public $baseDir;
+    public $config;
+    protected static $instance;
+
+
+    private function __construct($baseDir)
+    {
+        $this->baseDir = $baseDir;
+        $this->config = new config($baseDir.'/configs');
+    }
+
+    static function getInstance($baseDir = '')
+    {
+        if (empty(self::$instance))
+        {
+            self::$instance = new self($baseDir);
+        }
+        return self::$instance;
+    }
 
     /**
-     * 初始化配置
-     */
-    static private function init()
-    {
-        //TODO　加载用户自定义配置
-        session_start();//开启session
-        date_default_timezone_set("PRC");//设置时区
-        \core\lib\log::init();//初始化日志
-        \core\lib\constant::init();//引入常量
-    }
-    /**
      * 启动框架入口方法
-     *
      * @throws \Exception
      */
-    static public function run()
+    public function run()
     {
-        try {
-            self::init();
-            $route = new \core\lib\route();
-            $ctrlClass = $route->ctrl;
-            $action = $route->action;
-            $ctrFile = APP . DIRECTORY_SEPARATOR . 'ctrl' . DIRECTORY_SEPARATOR . $ctrlClass . 'Ctrl.php';
-            $cltrClass = "\\" . MODULE . "\ctrl\\" . $ctrlClass . 'Ctrl';
-            if (is_file($ctrFile)) {
-                include $ctrFile;
-                $ctrl = new $cltrClass();
-                $ctrl->$action();
-                \core\lib\log::log('ctrl:' . $ctrlClass . '   ' . 'action:' . $action);
-            } else {
-                throw new \Exception('not found controller' . $ctrlClass);
+        session_start();
+        date_default_timezone_set("PRC");
+        build::init();
+        log::init();
+        $ctrl = $this->config['main']['default']['ctrl'];
+        $action = $this->config['main']['action'];
+        if (isset($_SERVER['REQUEST_URI']) && $_SERVER['REQUEST_URI'] != '/') {
+            $uri = $_SERVER['REQUEST_URI'];
+            $pathArr = explode('/', trim($uri, '/'));
+            if (isset($pathArr[0])) {
+                $ctrl = $pathArr[0];
+                unset($pathArr[0]);
             }
-        } catch (\Exception $ex) {
-            throw new \Exception($ex->getMessage());
+            if (isset($pathArr[1])) {
+                $action = $pathArr[1];
+                unset($pathArr[1]);
+            } else {
+                $action = $this->config['main']['action'];
+            }
+            $count = count($pathArr) + self::COUNTER;
+            $i = self::COUNTER;
+            while ($i < $count) {
+                if (isset($pathArr[$i + 1])) {
+                    $_GET[$pathArr[$i]] = $pathArr[$i + 1];
+                }
+                $i += self::COUNTER;
+            }
         }
+        $ctrlLow = strtolower($ctrl);
+        $class = '\\app\\ctrl\\'.$ctrl.'Ctrl';
+        $obj = new $class($ctrl, $action);
+        $controllerConfig = $this->config['main']['default'];
+        $decorators = [];
+        if (isset($controller_config[$ctrlLow]['decorator'])) {
+            $conf_decorator = $controllerConfig[$ctrlLow]['decorator'];
+            foreach($conf_decorator as $class) {
+                $decorators[] = new $class;
+            }
+        }
+        foreach($decorators as $decorator) {
+            $decorator->beforeRequest($obj);
+        }
+        $return_value = $obj->$action();
+        foreach($decorators as $decorator) {
+            $decorator->afterRequest($return_value);
+        }
+        log::log('ctrl:' . $ctrl . 'Ctrl   ' . 'action:' . $action);
     }
     /**
      * 自动加载类方法
@@ -71,42 +112,6 @@ class myFrame
             } else {
                 return false;
             }
-        }
-    }
-
-    /**
-     *
-     * @param $name
-     * @param $value
-     */
-    public function assign($name, $value)
-    {
-        $this->assign[$name] = $value;
-    }
-
-    /**
-     * 加载视图、分配变量
-     *
-     * @param $file
-     * @throws \Twig\Error\LoaderError
-     * @throws \Twig\Error\RuntimeError
-     * @throws \Twig\Error\SyntaxError
-     */
-    public function display($file)
-    {
-        $name = $file;
-        $file = APP . '/views/' . $file;
-        if (is_file($file)) {
-//            extract($this->assign);
-//            include $file;
-            require_once MY_FRAME .DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_SEPARATOR.'autoload.php';
-            $loader = new \Twig\Loader\FilesystemLoader(APP . '/views');
-            $twig = new \Twig\Environment($loader, [
-                'cache' => MY_FRAME . '/runtime/twig',
-                'debug' => DEBUG,
-            ]);
-            $template = $twig->load($name);
-            $template->display($this->assign ? $this->assign : []);
         }
     }
 }

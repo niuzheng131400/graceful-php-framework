@@ -11,7 +11,7 @@
 
 namespace core\lib;
 
-use core\lib\conf;
+use core\myFrame;
 use Medoo\Medoo;
 
 class model extends Medoo
@@ -22,7 +22,7 @@ class model extends Medoo
      */
     public function __construct()
     {
-        $database = conf::all('database');
+        $database = myFrame::getInstance()->config['db']['master'];
         parent::__construct($database);
     }
 }

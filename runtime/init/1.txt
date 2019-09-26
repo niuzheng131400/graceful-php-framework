@@ -11,9 +11,9 @@
 namespace app\ctrl;
 
 use app\model\exampleModel;
-use core\myFrame;
+use core\lib\Controller;
 
-class exampleCtrl extends myFrame
+class exampleCtrl extends Controller
 {
     /**
      * @throws \Exception
