@@ -10,7 +10,6 @@
  *  2、加载函数库
  *  3、启动框架
  */
-
 //定义根目录
 define('MY_FRAME', realpath('./../'));
 //框架核心文件
@@ -28,8 +27,8 @@ define('DEBUG', true);//是否开启调试模式
 //加载函数库
 include CORE.'/common/function.php';
 //加载框架核心文件
-include CORE.'/myFrame.php';
+include CORE.'/Framework.php';
 //自动加载类
-spl_autoload_register('\core\myFrame::load');
+spl_autoload_register('\core\Framework::load');
 //启动框架
-\core\myFrame::getInstance(CORE)->run();
+\core\Framework::getInstance(CORE)->run();
