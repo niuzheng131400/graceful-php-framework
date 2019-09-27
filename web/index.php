@@ -22,20 +22,7 @@ define('MODULE','app');
 //第三方类库引入
 include "../vendor/autoload.php";
 //调试模式
-define('DEBUG', true);
-//是否开启调试模式
-if (DEBUG) {
-    //错误类展示美化
-    $whoops = new \Whoops\Run;
-    $errorTitle = "MY_Frame框架出错了!";
-    $option = new \Whoops\Handler\PrettyPageHandler;
-    $option->setPageTitle($errorTitle);
-    $whoops->prependHandler($option);
-    $whoops->register();
-    ini_set('display_error', 'On');
-} else {
-    ini_set('display_error', 'Off');
-}
+define('DEBUG', true);//是否开启调试模式
 //优美的输出调试
 //dump($_SERVER);
 //加载函数库
