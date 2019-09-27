@@ -7,11 +7,11 @@
  */
 return [
     'default' => [
-        'ctrl' => 'default',//默认控制器
+        'ctrl' => 'index',//默认控制器
         'decorator' => [
 //            'app\decorator\login',
-//            'app\decorator\template',
-//            'app\decorator\json',
+            'app\decorator\template',
+            'app\decorator\json',
         ]
     ],
     'action' => 'index',//默认访问方法

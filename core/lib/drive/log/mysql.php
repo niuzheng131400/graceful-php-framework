@@ -10,10 +10,12 @@
 
 namespace core\lib\drive\log;
 
-class mysql
+use core\lib\Factory;
+
+class Mysql
 {
     public function __construct()
     {
-        debug('我是待完善的日志存储到mysql驱动类');
+//        Factory::getDb()->query();
     }
 }

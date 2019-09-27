@@ -1,5 +1,9 @@
 <?php
+
 namespace core\lib;
+
+use Twig\Environment;
+use Twig\Loader\FilesystemLoader;
 
 abstract class Controller
 {
@@ -13,8 +17,9 @@ abstract class Controller
     {
         $this->controller_name = $controller_name;
         $this->view_name = $view_name;
-        $this->template_dir = APP.'/views';
+        $this->template_dir = APP . '/views';
     }
+
     /**
      *
      * @param $name
@@ -24,33 +29,36 @@ abstract class Controller
     {
         $this->assign[$name] = $value;
     }
+
     /**
      * 加载视图、分配变量
-     *
-     * @param $file
+     * @param string $file
+     * @param bool $twig
      * @throws \Twig\Error\LoaderError
      * @throws \Twig\Error\RuntimeError
      * @throws \Twig\Error\SyntaxError
      */
-    public function display($file = '')
+    public function display($file = '', $twig = false)
     {
-        $name = (empty($file) ? $this->view_name : $file).'.php';
+        $name = (empty($file) ? $this->view_name : $file) . '.php';
         $dir = strtolower($this->controller_name);
-        $file = empty($file) ?  $dir.'/'.$this->view_name.'.php' : $dir.'/'.$file.'.php';
-        $path = $this->template_dir.'/'.$file;
+        $file = empty($file) ? $dir . '/' . $this->view_name . '.php' : $dir . '/' . $file . '.php';
+        $path = $this->template_dir . '/' . $file;
         if (is_file($path)) {
-//            extract($this->assign);
-//            include $file;
-//            require_once MY_FRAME .'/vendor/autoload.php';
-            $loader = new \Twig\Loader\FilesystemLoader($this->template_dir.'/'.strtolower($this->controller_name));
-            $twig = new \Twig\Environment($loader, [
-                'cache' => MY_FRAME . '/runtime/twig',
-                'debug' => DEBUG,
-            ]);
-            $template = $twig->load($name);
-            $template->display($this->assign ? $this->assign : []);
+            if ($twig) {
+                $loader = new FilesystemLoader($this->template_dir . '/' . strtolower($this->controller_name));
+                $twig = new Environment($loader, [
+                    'cache' => MY_FRAME . '/runtime/twig',
+                    'debug' => DEBUG,
+                ]);
+                $template = $twig->load($name);
+                $template->display($this->assign ? $this->assign : []);
+            } else {
+                extract($this->assign ? $this->assign : []);
+                include $path;
+            }
         } else {
-            new \Exception('');
+            new \Exception('Templates:'.$path.'not found');
         }
     }
 }

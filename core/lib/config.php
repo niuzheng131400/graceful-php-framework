@@ -8,7 +8,7 @@
 
 namespace core\lib;
 
-class config implements \ArrayAccess
+class Config implements \ArrayAccess
 {
     protected $path;
     protected $configs = array();

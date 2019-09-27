@@ -11,10 +11,10 @@
 
 namespace core\lib;
 
-use core\myFrame;
+use core\framework;
 use Medoo\Medoo;
 
-class model extends Medoo
+class Model extends Medoo
 {
     /**
      * model constructor.
@@ -22,7 +22,27 @@ class model extends Medoo
      */
     public function __construct()
     {
-        $database = myFrame::getInstance()->config['db']['master'];
+        $database = framework::getInstance()->config['db']['master'];
         parent::__construct($database);
+    }
+
+    public function where()
+    {
+        return $this;
+    }
+
+    public function andWhere()
+    {
+        return $this;
+    }
+
+    public function groupBy()
+    {
+        return $this;
+    }
+
+    public function limit()
+    {
+        return $this;
     }
 }

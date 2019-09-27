@@ -10,9 +10,9 @@
 
 namespace core\lib\drive\log;
 
-use core\myFrame;
+use core\framework;
 
-class file
+class File
 {
     //日志存储路径
     public $path;
@@ -23,7 +23,7 @@ class file
      */
     public function __construct()
     {
-        $logConfig = myFrame::getInstance()->config['main']['log'];
+        $logConfig = framework::getInstance()->config['main']['log'];
         $this->path = $logConfig['option']['path'];
     }
 
@@ -41,9 +41,6 @@ class file
     {
         $dir = $this->path . date('YmdH');
         if (!is_dir($dir)) {
-           /* $old =umask(0);
-            mkdir($dir,0777);
-            umask($old);*/
             mkdir($dir, 0777, true);
             chmod($dir,0777);
         }

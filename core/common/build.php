@@ -8,9 +8,9 @@
 
 namespace core\common;
 
-use core\myFrame;
+use core\framework;
 
-class build
+class Build
 {
     //项目目录
     const APPLICATION = MY_FRAME .'/'. MODULE;
@@ -27,7 +27,7 @@ class build
             exit;
         }
         //获取目录配置项
-        $build = myFrame::getInstance()->config['main']['dir'];
+        $build = framework::getInstance()->config['main']['dir'];
         //创建项目子目录
         foreach ($build as $dir) {
             $sonDir = self::APPLICATION .'/'. $dir;
