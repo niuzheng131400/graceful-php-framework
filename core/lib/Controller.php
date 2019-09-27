@@ -41,7 +41,7 @@ abstract class Controller
         if (is_file($path)) {
 //            extract($this->assign);
 //            include $file;
-            require_once MY_FRAME .'/vendor/autoload.php';
+//            require_once MY_FRAME .'/vendor/autoload.php';
             $loader = new \Twig\Loader\FilesystemLoader($this->template_dir.'/'.strtolower($this->controller_name));
             $twig = new \Twig\Environment($loader, [
                 'cache' => MY_FRAME . '/runtime/twig',

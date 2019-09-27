@@ -11,12 +11,12 @@
 namespace core;
 
 use core\common\build;
-use Core\lib\config;
+use core\lib\config;
 use core\lib\log;
 
 class myFrame
 {
-    const COUNTER =  2;
+    const COUNTER = 2;
 
     static public $classMap = [];
     public $baseDir;
@@ -27,13 +27,12 @@ class myFrame
     private function __construct($baseDir)
     {
         $this->baseDir = $baseDir;
-        $this->config = new config($baseDir.'/configs');
+        $this->config = new config($baseDir . '/configs');
     }
 
     static function getInstance($baseDir = '')
     {
-        if (empty(self::$instance))
-        {
+        if (empty(self::$instance)) {
             self::$instance = new self($baseDir);
         }
         return self::$instance;
@@ -74,25 +73,26 @@ class myFrame
             }
         }
         $ctrlLow = strtolower($ctrl);
-        $class = '\\app\\ctrl\\'.$ctrl.'Ctrl';
+        $class = '\\app\\ctrl\\' . $ctrl . 'Ctrl';
         $obj = new $class($ctrl, $action);
         $controllerConfig = $this->config['main']['default'];
         $decorators = [];
         if (isset($controller_config[$ctrlLow]['decorator'])) {
             $conf_decorator = $controllerConfig[$ctrlLow]['decorator'];
-            foreach($conf_decorator as $class) {
+            foreach ($conf_decorator as $class) {
                 $decorators[] = new $class;
             }
         }
-        foreach($decorators as $decorator) {
+        foreach ($decorators as $decorator) {
             $decorator->beforeRequest($obj);
         }
         $return_value = $obj->$action();
-        foreach($decorators as $decorator) {
+        foreach ($decorators as $decorator) {
             $decorator->afterRequest($return_value);
         }
         log::log('ctrl:' . $ctrl . 'Ctrl   ' . 'action:' . $action);
     }
+
     /**
      * 自动加载类方法
      * @param $class
@@ -105,7 +105,7 @@ class myFrame
         if (isset($classMap[$class])) {
             return true;
         } else {
-            $file = MY_FRAME . DIRECTORY_SEPARATOR . $class . '.php';
+            $file = MY_FRAME .'/'. $class . '.php';
             if (is_file($file)) {
                 include $file;
                 self::$classMap[$class] = $class;
