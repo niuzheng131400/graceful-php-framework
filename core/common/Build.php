@@ -71,49 +71,5 @@ class Build
                 exit;
             }
         }
-        self::createExample();
-    }
-
-    /**
-     * 创建默认例子
-     */
-    static private function createExample()
-    {
-        $init = MY_FRAME . '/runtime/init/';
-        $view = APP .'/views/default';
-        $newFile = '';
-        for ($i = 1; $i < 7; $i++) {
-            $file = $init . $i . '.txt';
-            switch ($i) {
-                case 1:
-                    $newFile = APP . '/ctrl/exampleCtrl.php';
-                    break;
-                case 2:
-                    $newFile = APP .  '/model/exampleModel.php';
-                    break;
-                case 3:
-                    $newFile = $view . '/example.php';
-                    break;
-                case 4:
-                    $newFile = $view . '/example1.php';
-                    break;
-                case 5:
-                    $newFile = $view . '/layout.php';
-                    break;
-                case 6:
-                    $newFile = $view . '/index.php';
-                    break;
-            }
-            if (file_exists($file)) {
-                $content = file_get_contents($file);
-                if (!file_exists($newFile) && $newFile != '') {
-                    if (!createFile($newFile, $content, 0777)) {
-                        $message = ['控制器', '模型', '视图', '视图', 'layout','视图'];
-                        echo '<h2>' . $newFile . '默认案例' . $message[$i] . '创建失败！/(ㄒoㄒ)/~~</h2>';
-                        exit;
-                    }
-                }
-            }
-        }
     }
 }
