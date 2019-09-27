@@ -11,22 +11,27 @@
 #### Frame Structure
     .
     ├── README.MD
+    ├── app
+    │   ├── configs
+    │   ├── controllers
+    │   ├── decorator
+    │   ├── models
+    │   └── views
     ├── composer.json
     ├── composer.lock
     ├── core
+    │   ├── Framework.php
     │   ├── common
-    │   ├── config
-    │   ├── lib
-    │   └── Framework.php
+    │   ├── configs
+    │   └── lib
     ├── runtime
+    │   ├── log
+    │   └── twig
     ├── vendor
     └── web
         ├── index.php
         ├── robots.txt
         └── static
-            ├── css
-            ├── images
-            └── js  
 - 说明
   - 为什么要开发自己的框架？
       - 为了达到更快的开发效率。
