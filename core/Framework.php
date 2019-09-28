@@ -132,7 +132,7 @@ class Framework
         foreach ($decorators as $decorator) {
             $decorator->afterRequest($return_value);
         }
-        log::log('ctrl:' . $ctrl . 'Controller   ' . 'action:' . $action);
+        log::log('Controller:' . $ctrl . 'Controller   ' . 'Action:' . $action);
     }
 }
 
