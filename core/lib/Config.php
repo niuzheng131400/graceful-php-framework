@@ -11,11 +11,13 @@ namespace core\lib;
 class Config implements \ArrayAccess
 {
     protected $path;
-    protected $configs = array();
+    protected $configs = [];
+    protected $all = [];
 
-    public function __construct($path)
+    public function __construct($path, $config = [])
     {
         $this->path = $path;
+        $this->all = $config;
     }
 
     public function offsetGet($key)
@@ -25,7 +27,7 @@ class Config implements \ArrayAccess
             $config = require $file_path;
             $this->configs[$key] = $config;
         }
-        return $this->configs[$key];
+        return array_merge($this->configs[$key], $this->all);
     }
 
     public function offsetSet($key, $value)

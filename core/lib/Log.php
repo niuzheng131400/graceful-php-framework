@@ -12,7 +12,7 @@
 
 namespace core\lib;
 
-use Core\framework;
+use Core\Framework;
 
 class log
 {
@@ -23,7 +23,7 @@ class log
      */
     static public function init()
     {
-        $logConfig = framework::getInstance()->config['main']['log'];
+        $logConfig = Framework::getInstance()->config['main']['log'];
         $drive = $logConfig['drive'];
         $class = '\\core\\lib\\drive\\log\\' . $drive;
         self::$class = new $class();

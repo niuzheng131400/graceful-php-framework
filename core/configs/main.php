@@ -5,7 +5,8 @@
  * Date: 2019/9/26
  * Time: 17:41
  */
-return [
+
+$config = [
     'default' => [
         'ctrl' => 'index',//默认控制器
         'decorator' => [
@@ -15,11 +16,25 @@ return [
         ]
     ],
     'action' => 'index',//默认访问方法
-    'dir' => ['ctrl', 'model', 'views', 'configs', 'common'],//默认创建的目录和文件
     'log' => [
         'drive' => 'file',
         'option' => [
-            'path' => MY_FRAME.'/runtime/log/',
+            'path' => MY_FRAME . '/runtime/log/',
         ]
     ]
 ];
+
+if (DEBUG) {
+    //错误类展示美化
+    $whoops = new \Whoops\Run;
+    $errorTitle = "MY_Frame框架出错了!";
+    $option = new \Whoops\Handler\PrettyPageHandler;
+    $option->setPageTitle($errorTitle);
+    $whoops->prependHandler($option);
+    $whoops->register();
+    ini_set('display_error', 'On');
+} else {
+    ini_set('display_error', 'Off');
+}
+
+return $config;

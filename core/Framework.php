@@ -10,44 +10,85 @@
 
 namespace core;
 
-use core\common\Build;
+use core\lib\Build;
 use core\lib\Config;
 use core\lib\log;
 
 class Framework
 {
     const COUNTER = 2;
-
     static public $classMap = [];
-    public $baseDir;
     public $config;
     protected static $instance;
 
-
-    private function __construct($baseDir)
+    /**
+     * Framework constructor.
+     * @param $config
+     */
+    private function __construct($config)
     {
-        $this->baseDir = $baseDir;
-        $this->config = new Config($baseDir . '/configs');
+        $this->config = new Config(CORE . '/configs', $config);
     }
 
-    static function getInstance($baseDir = '')
+    /**
+     * 单例
+     * @param $config
+     * @return Framework
+     */
+    static public function getInstance($config = [])
     {
         if (empty(self::$instance)) {
-            self::$instance = new self($baseDir);
+            self::$instance = new self($config);
         }
         return self::$instance;
+    }
+
+    /**
+     * run运行
+     */
+    public function run()
+    {
+        self::init();
+        $this->dispatch();
+    }
+
+    /**
+     * init
+     */
+    static private function init()
+    {
+        session_start();
+        date_default_timezone_set("PRC");
+        log::init();
+    }
+    /**
+     * 自动加载类方法
+     * @param $class
+     *
+     * @return bool
+     */
+    static public function load($class)
+    {
+        $class = str_replace('\\', '/', $class);
+        if (isset($classMap[$class])) {
+            return true;
+        } else {
+            $file = MY_FRAME . '/' . $class . '.php';
+            if (is_file($file)) {
+                include $file;
+                self::$classMap[$class] = $class;
+            } else {
+                return false;
+            }
+        }
     }
 
     /**
      * 启动框架入口方法
      * @throws \Exception
      */
-    public function run()
+    private function dispatch()
     {
-        session_start();
-        date_default_timezone_set("PRC");
-//        Build::init();
-        log::init();
         $ctrl = $this->config['main']['default']['ctrl'];
         $action = $this->config['main']['action'];
         if (isset($_SERVER['REQUEST_URI']) && $_SERVER['REQUEST_URI'] != '/') {
@@ -92,28 +133,6 @@ class Framework
             $decorator->afterRequest($return_value);
         }
         log::log('ctrl:' . $ctrl . 'Controller   ' . 'action:' . $action);
-    }
-
-    /**
-     * 自动加载类方法
-     * @param $class
-     *
-     * @return bool
-     */
-    static public function load($class)
-    {
-        $class = str_replace('\\', '/', $class);
-        if (isset($classMap[$class])) {
-            return true;
-        } else {
-            $file = MY_FRAME .'/'. $class . '.php';
-            if (is_file($file)) {
-                include $file;
-                self::$classMap[$class] = $class;
-            } else {
-                return false;
-            }
-        }
     }
 }
 
