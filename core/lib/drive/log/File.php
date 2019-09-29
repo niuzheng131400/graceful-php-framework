@@ -10,26 +10,24 @@
 
 namespace core\lib\drive\log;
 
-use core\framework;
-
 class File
 {
     //日志存储路径
-    public $path;
+    private $path;
+    private $file;
 
     /**
-     * file constructor.
-     * @throws \Exception
+     * File constructor.
+     * @param $option
      */
-    public function __construct()
+    public function __construct($option)
     {
-        $logConfig = framework::getInstance()->config['main']['log'];
-        $this->path = $logConfig['option']['path'];
+        $this->path = $option['path'];
+        $this->file = isset($option['file']) ? $option['file'] : 'log';
     }
 
     /**
      * @param $message
-     * @param string $file
      * -----------
      * 1、确定文件存储是否存在
      *   不存在->新建目录
@@ -37,14 +35,14 @@ class File
      *
      * @return bool|int
      */
-    public function log($message, $file = 'log')
+    public function log($message)
     {
         $dir = $this->path . date('YmdH');
         if (!is_dir($dir)) {
             mkdir($dir, 0777, true);
-            chmod($dir,0777);
+            chmod($dir, 0777);
         }
-        $fileName = $dir . '/' . $file . '.php';
+        $fileName = $dir . '/' . $this->file . '.php';
         return file_put_contents($fileName, date('Y-m-d H:i:s') . '---' . json_encode($message) . PHP_EOL, FILE_APPEND);
     }
 }

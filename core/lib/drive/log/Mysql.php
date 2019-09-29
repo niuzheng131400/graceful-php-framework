@@ -10,12 +10,21 @@
 
 namespace core\lib\drive\log;
 
-use core\lib\Factory;
-
 class Mysql
 {
+    /**
+     * Mysql constructor.
+     */
     public function __construct()
     {
-//        Factory::getDb()->query();
+
+    }
+
+    /**
+     * @param $message
+     */
+    public function log($message)
+    {
+
     }
 }

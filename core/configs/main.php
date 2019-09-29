@@ -20,6 +20,7 @@ $config = [
         'drive' => 'file',
         'option' => [
             'path' => MY_FRAME . '/runtime/log/',
+            'file' => 'log',//默认文件名
         ]
     ]
 ];

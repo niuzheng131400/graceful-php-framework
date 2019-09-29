@@ -19,6 +19,7 @@ require(CORE . '/common/function.php');
 require(CORE . '/Framework.php');
 spl_autoload_register('\core\Framework::load');
 \core\lib\Build::init();
+require(APP .'/configs/constants.php');
 $config = array_merge(
     require(APP . "/configs/db.php"),
     require(APP . "/configs/main.php")

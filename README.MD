@@ -3,6 +3,11 @@
 #### Requirements
   - PHP > 7.0.0
 #### 版本
+- 1.2.0.0
+    - 加入SeasLog 日志驱动类
+    - 优化框架脚手架
+    - 加入ArrayAccess调用配置文件加载
+    - 加入注册树类
 - 1.0.0.0
     - 框架的基础文件
     - 入口
@@ -43,6 +48,34 @@
 ```bash
     git clone https://github.com/niuzheng131400/My-Frame.git
 ```
-- 完善中 ...
+- 日志配置
+  - 存储到文件
+```php  
+      'log' => [
+              'drive' => 'file',//文件存储
+              'option' => [
+                  'path' => MY_FRAME . '/runtime/log/',//默认存储路径
+              ]
+          ]
+```      
+  - 使用SeasLog类
+```php  
+        'log' => [
+                'drive' => 'file',//文件存储
+                'option' => [
+                    'path' => MY_FRAME . '/runtime/log/',默认存储路径
+                    'module' => 'SeasLog'
+                ]
+            ]
+```
+  - 存储到Mysql(需要自行完善Mysql驱动类)
+```php  
+      'log' => [
+              'drive' => 'Mysql',//文件存储
+              'option' => [
+                  
+              ]
+          ]
+```
   
     

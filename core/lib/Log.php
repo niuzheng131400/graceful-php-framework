@@ -14,27 +14,33 @@ namespace core\lib;
 
 use Core\Framework;
 
-class log
+class Log
 {
     static $class;
 
     /**
-     * @throws \Exception
+     *
      */
     static public function init()
     {
         $logConfig = Framework::getInstance()->config['main']['log'];
-        $drive = $logConfig['drive'];
-        $class = '\\core\\lib\\drive\\log\\' . $drive;
-        self::$class = new $class();
+        $drive = ucwords($logConfig['drive']);
+        $key = 'log_' . $drive;
+        self::$class = Register::get($key);
+        if (!self::$class) {
+            $class = '\\core\\lib\\drive\\log\\' . $drive;
+            $option = $logConfig['option'];
+            self::$class = new $class($option);
+            Register::set($key, self::class);
+        }
     }
 
     /**
-     * @param $name
-     * @param $file
+     * @param $message
+     * @param string $lever
      */
-    static public function log($name, $file = 'log')
+    static public function log($message, $lever = "INFO")
     {
-        self::$class->log($name, $file);
+        self::$class->log($message, $lever);
     }
 }

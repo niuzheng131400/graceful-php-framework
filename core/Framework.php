@@ -85,7 +85,6 @@ class Framework
 
     /**
      * 启动框架入口方法
-     * @throws \Exception
      */
     private function dispatch()
     {

@@ -212,6 +212,7 @@ DB
         'drive' => 'file',
         'option' => [
             'path' => MY_FRAME . '/runtime/log/',
+            'file' => 'log',//默认文件名
         ]
     ]
 ];
@@ -231,6 +232,14 @@ if (DEBUG) {
 
 return \$config;
 MAIN
+                        ],
+                        APP . '/configs/constants.php' => [
+                            <<<CONSTANTS
+<?php
+
+
+?>
+CONSTANTS
                         ]
                     ];
                     break;
