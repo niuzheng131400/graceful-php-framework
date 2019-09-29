@@ -48,7 +48,7 @@
 ```bash
     git clone https://github.com/niuzheng131400/My-Frame.git
 ```
-- 日志配置
+- 日志配置main.php
   - 存储到文件
 ```php  
       'log' => [
@@ -76,6 +76,37 @@
                   
               ]
           ]
+```
+- 数据库配置db.php 
+```php
+return [
+    'master' => [
+        'database_type' => 'mysql',
+        'database_name' => 'test',
+        'server' => 'localhost',
+        'username' => 'root',
+        'password' => '123456',
+        'charset' => 'utf8',
+    ],
+    'slave' => [
+        'slave1' => [
+            'database_type' => 'mysql',
+            'database_name' => 'test',
+            'server' => 'localhost',
+            'username' => 'root',
+            'password' => '123456',
+            'charset' => 'utf8',
+        ],
+        'slave2' => [
+            'database_type' => 'mysql',
+            'database_name' => 'test',
+            'server' => 'localhost',
+            'username' => 'root',
+            'password' => '123456',
+            'charset' => 'utf8',
+        ]
+    ]
+];
 ```
   
     
