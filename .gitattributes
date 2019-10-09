@@ -1,1 +1,1 @@
-*.php linguist-language=php
+*.phpt text=auto
