@@ -113,12 +113,11 @@ return [
 ];
 ```
 - PHP Console工具
-  - 配置main.php
 ```php
-        'chromeConsole' => true
-```
-  - 调用  
-```php
-        Framework::$app->console('test', ['a' => 1]);
-```  
+
+main配置:'chromeConsole' => true
+
+调用:Framework::$app->console('test', ['a' => 1]);
+
+``` 
     
