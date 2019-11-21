@@ -115,7 +115,7 @@ return [
 - PHP Console工具
 ```php
 
-main配置:'chromeConsole' => true
+main.php配置:'chromeConsole' => true
 
 调用:Framework::$app->console('test', ['a' => 1]);
 
