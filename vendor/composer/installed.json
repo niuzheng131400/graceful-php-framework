@@ -1,17 +1,17 @@
 [
     {
         "name": "catfan/medoo",
-        "version": "v1.7.3",
-        "version_normalized": "1.7.3.0",
+        "version": "v1.7.6",
+        "version_normalized": "1.7.6.0",
         "source": {
             "type": "git",
             "url": "https://github.com/catfan/Medoo.git",
-            "reference": "113519d8032044a1d7b0852740e8f8d210b4dee2"
+            "reference": "4b3194a526e7e0ace7efd3a6773f0805fd47bef9"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/catfan/Medoo/zipball/113519d8032044a1d7b0852740e8f8d210b4dee2",
-            "reference": "113519d8032044a1d7b0852740e8f8d210b4dee2",
+            "url": "https://api.github.com/repos/catfan/Medoo/zipball/4b3194a526e7e0ace7efd3a6773f0805fd47bef9",
+            "reference": "4b3194a526e7e0ace7efd3a6773f0805fd47bef9",
             "shasum": ""
         },
         "require": {
@@ -27,7 +27,7 @@
             "ext-pdo_sqlite": "For SQLite database",
             "ext-pdo_sqlsrv": "For MSSQL database on both Window/Liunx platform"
         },
-        "time": "2019-08-14T13:47:48+00:00",
+        "time": "2019-10-26T06:27:51+00:00",
         "type": "framework",
         "installation-source": "dist",
         "autoload": {
@@ -125,28 +125,81 @@
         ]
     },
     {
-        "name": "psr/log",
-        "version": "1.1.0",
-        "version_normalized": "1.1.0.0",
+        "name": "php-console/php-console",
+        "version": "3.1.8",
+        "version_normalized": "3.1.8.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/php-fig/log.git",
-            "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
+            "url": "https://github.com/barbushin/php-console.git",
+            "reference": "aa1d71d4ea3dc91e126edc9aa4f3c10eb8559cff"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
-            "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+            "url": "https://api.github.com/repos/barbushin/php-console/zipball/aa1d71d4ea3dc91e126edc9aa4f3c10eb8559cff",
+            "reference": "aa1d71d4ea3dc91e126edc9aa4f3c10eb8559cff",
             "shasum": ""
         },
         "require": {
             "php": ">=5.3.0"
         },
-        "time": "2018-11-20T15:27:04+00:00",
+        "require-dev": {
+            "ext-mbstring": "*",
+            "phpunit/phpunit": "^4.8",
+            "psr/log": "^1.0"
+        },
+        "time": "2019-07-25T03:43:28+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PhpConsole\\": "src/PhpConsole"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Sergey Barbushin",
+                "email": "barbushin@gmail.com",
+                "homepage": "http://linkedin.com/in/barbushin"
+            }
+        ],
+        "description": "PHP library for Google Chrome extension \"PHP Console\".",
+        "homepage": "https://github.com/barbushin/php-console",
+        "keywords": [
+            "chrome",
+            "debug",
+            "error handler",
+            "errors",
+            "google chrome",
+            "php"
+        ]
+    },
+    {
+        "name": "psr/log",
+        "version": "1.1.2",
+        "version_normalized": "1.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/log.git",
+            "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/log/zipball/446d54b4cb6bf489fc9d75f55843658e6f25d801",
+            "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2019-11-01T11:05:21+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "1.0.x-dev"
+                "dev-master": "1.1.x-dev"
             }
         },
         "installation-source": "dist",
@@ -353,17 +406,17 @@
     },
     {
         "name": "symfony/var-dumper",
-        "version": "v4.3.4",
-        "version_normalized": "4.3.4.0",
+        "version": "v4.3.8",
+        "version_normalized": "4.3.8.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/var-dumper.git",
-            "reference": "641043e0f3e615990a0f29479f9c117e8a6698c6"
+            "reference": "ea4940845535c85ff5c505e13b3205b0076d07bf"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/var-dumper/zipball/641043e0f3e615990a0f29479f9c117e8a6698c6",
-            "reference": "641043e0f3e615990a0f29479f9c117e8a6698c6",
+            "url": "https://api.github.com/repos/symfony/var-dumper/zipball/ea4940845535c85ff5c505e13b3205b0076d07bf",
+            "reference": "ea4940845535c85ff5c505e13b3205b0076d07bf",
             "shasum": ""
         },
         "require": {
@@ -386,7 +439,7 @@
             "ext-intl": "To show region name in time zone dump",
             "symfony/console": "To use the ServerDumpCommand and/or the bin/var-dump-server script"
         },
-        "time": "2019-08-26T08:26:39+00:00",
+        "time": "2019-10-13T12:02:04+00:00",
         "bin": [
             "Resources/bin/var-dump-server"
         ],
@@ -484,17 +537,17 @@
     },
     {
         "name": "twig/twig",
-        "version": "v2.11.3",
-        "version_normalized": "2.11.3.0",
+        "version": "v2.12.2",
+        "version_normalized": "2.12.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/twigphp/Twig.git",
-            "reference": "699ed2342557c88789a15402de5eb834dedd6792"
+            "reference": "d761fd1f1c6b867ae09a7d8119a6d95d06dc44ed"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/twigphp/Twig/zipball/699ed2342557c88789a15402de5eb834dedd6792",
-            "reference": "699ed2342557c88789a15402de5eb834dedd6792",
+            "url": "https://api.github.com/repos/twigphp/Twig/zipball/d761fd1f1c6b867ae09a7d8119a6d95d06dc44ed",
+            "reference": "d761fd1f1c6b867ae09a7d8119a6d95d06dc44ed",
             "shasum": ""
         },
         "require": {
@@ -504,14 +557,14 @@
         },
         "require-dev": {
             "psr/container": "^1.0",
-            "symfony/debug": "^2.7",
-            "symfony/phpunit-bridge": "^3.4.19|^4.1.8|^5.0"
+            "symfony/debug": "^3.4|^4.2",
+            "symfony/phpunit-bridge": "^4.4@dev|^5.0"
         },
-        "time": "2019-06-18T15:37:11+00:00",
+        "time": "2019-11-11T16:52:09+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "2.11-dev"
+                "dev-master": "2.12-dev"
             }
         },
         "installation-source": "dist",
@@ -535,14 +588,14 @@
                 "role": "Lead Developer"
             },
             {
-                "name": "Armin Ronacher",
-                "email": "armin.ronacher@active-4.com",
-                "role": "Project Founder"
-            },
-            {
                 "name": "Twig Team",
                 "homepage": "https://twig.symfony.com/contributors",
                 "role": "Contributors"
+            },
+            {
+                "name": "Armin Ronacher",
+                "email": "armin.ronacher@active-4.com",
+                "role": "Project Founder"
             }
         ],
         "description": "Twig, the flexible, fast, and secure template language for PHP",

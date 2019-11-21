@@ -31,7 +31,7 @@ class Log
             $class = '\\core\\lib\\drive\\log\\' . $drive;
             $option = $logConfig['option'];
             self::$class = new $class($option);
-            Register::set($key, self::class);
+            Register::set($key, self::$class);
         }
     }
 

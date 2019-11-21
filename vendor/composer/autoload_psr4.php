@@ -13,5 +13,6 @@ return array(
     'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),
     'Symfony\\Component\\VarDumper\\' => array($vendorDir . '/symfony/var-dumper'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
+    'PhpConsole\\' => array($vendorDir . '/php-console/php-console/src/PhpConsole'),
     'Medoo\\' => array($vendorDir . '/catfan/medoo/src'),
 );

@@ -22,7 +22,8 @@ $config = [
             'path' => MY_FRAME . '/runtime/log/',
             'file' => 'log',//默认文件名
         ]
-    ]
+    ],
+    'chromeConsole' => false,
 ];
 
 if (DEBUG) {

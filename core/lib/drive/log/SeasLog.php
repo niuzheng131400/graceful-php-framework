@@ -20,7 +20,6 @@ class SeasLog
         $module = isset($option['module']) ? $option['module'] : 'SeaLog';
         \SeasLog::setBasePath($path);
         \SeasLog::setLogger($module);
-
     }
 
     /**

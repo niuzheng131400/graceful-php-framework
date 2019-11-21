@@ -34,9 +34,7 @@ abstract class Controller
      * 加载视图、分配变量
      * @param string $file
      * @param bool $twig
-     * @throws \Twig\Error\LoaderError
-     * @throws \Twig\Error\RuntimeError
-     * @throws \Twig\Error\SyntaxError
+     * @throws
      */
     public function display($file = '', $twig = false)
     {

@@ -3,6 +3,10 @@
 #### Requirements
   - PHP > 7.0.0
 #### 版本
+- 1.3.0.0
+    - 添加PHP Console工具
+    - 优化自动加载类
+    - 修改日志类报错
 - 1.2.0.0
     - 加入SeasLog 日志驱动类
     - 优化框架脚手架
@@ -108,5 +112,13 @@ return [
     ]
 ];
 ```
-  
+- PHP Console工具
+  - 配置main.php
+```php
+        'chromeConsole' => true
+```
+  - 调用  
+```php
+        Framework::$app->console('test', ['a' => 1]);
+```  
     

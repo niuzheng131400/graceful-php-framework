@@ -32,6 +32,7 @@ class ComposerStaticInit1e2290fa21bdb492822e50bfc5c67392
         'P' => 
         array (
             'Psr\\Log\\' => 8,
+            'PhpConsole\\' => 11,
         ),
         'M' => 
         array (
@@ -67,6 +68,10 @@ class ComposerStaticInit1e2290fa21bdb492822e50bfc5c67392
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'PhpConsole\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-console/php-console/src/PhpConsole',
         ),
         'Medoo\\' => 
         array (
