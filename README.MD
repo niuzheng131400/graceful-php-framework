@@ -52,6 +52,10 @@
 ```bash
     git clone https://github.com/niuzheng131400/My-Frame.git
 ```
+- 测试框架运行(浏览器访问http://localhost:8000)
+```bash
+  php -S localhost:8000
+```
 - 日志配置main.php
   - 存储到文件
 ```php  
