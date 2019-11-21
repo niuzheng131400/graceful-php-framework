@@ -10,7 +10,7 @@ namespace core\lib;
 
 use core\lib\db\Mysqli;
 use core\lib\db\Proxy;
-use core\framework;
+use core\Framework;
 
 class Factory
 {
@@ -35,10 +35,10 @@ class Factory
             return self::$proxy;
         }
         if ($id == 'slave') {
-            $slaves = framework::getInstance()->config['db'][$id];
+            $slaves = Framework::getInstance()->config['db'][$id];
             $dbConfig = $slaves[array_rand($slaves)];
         } else {
-            $dbConfig = framework::getInstance()->config['db'][$id];
+            $dbConfig = Framework::getInstance()->config['db'][$id];
         }
         $key = 'database_' . $id;
         $db = Register::get($key);

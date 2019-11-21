@@ -162,7 +162,7 @@ class BaseFramework
         foreach ($decorators as $decorator) {
             $decorator->afterRequest($return_value);
         }
-        log::log('Controller:' . $ctrl . 'Controller   ' . 'Action:' . $action);
+        Log::log('Controller:' . $ctrl . 'Controller   ' . 'Action:' . $action);
     }
 
     /**
