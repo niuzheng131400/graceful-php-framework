@@ -10,9 +10,12 @@ $config = [
     'default' => [
         'ctrl' => 'index',//默认控制器
         'decorator' => [
-//            'app\decorator\login',
-            'app\decorator\template',
-            'app\decorator\json',
+            'noUse' => ['login'],
+            'list' => [
+                'app\decorator\Login',
+                'app\decorator\Template',
+                'app\decorator\Json',
+            ]
         ]
     ],
     'action' => 'index',//默认访问方法
@@ -35,8 +38,8 @@ if (DEBUG) {
     $whoops->prependHandler($option);
     $whoops->register();
     ini_set('display_error', 'On');
+    error_reporting(E_ALL);
 } else {
     ini_set('display_error', 'Off');
 }
-
 return $config;

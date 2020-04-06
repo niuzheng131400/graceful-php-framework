@@ -10,6 +10,7 @@ namespace core;
 
 use core\lib\Config;
 use core\lib\Log;
+use http\Env\Request;
 use PhpConsole\Handler;
 
 
@@ -126,16 +127,21 @@ class BaseFramework
             $pathArr = explode('/', trim($uri, '/'));
             if (isset($pathArr[0])) {
                 $ctrl = $pathArr[0];
-                unset($pathArr[0]);
+                $class = '\\app\\controllers\\' . ucwords($ctrl) . 'Controller';
+                if (class_exists($class)) {
+                    unset($pathArr[0]);
+                }
             }
             if (isset($pathArr[1])) {
                 $action = $pathArr[1];
-                unset($pathArr[1]);
+                if (class_exists($class)) {
+                    unset($pathArr[1]);
+                }
             } else {
                 $action = $this->config['main']['action'];
             }
             $count = count($pathArr) + COUNTER;
-            $i = COUNTER;
+            $i = class_exists($class) ? COUNTER : 0;
             $_GET = [];
             while ($i < $count) {
                 if (isset($pathArr[$i + 1])) {
@@ -145,14 +151,25 @@ class BaseFramework
             }
         }
         $ctrlLow = strtolower($ctrl);
-        $class = '\\app\\controllers\\' . $ctrl . 'Controller';
-        $obj = new $class($ctrl, $action);
+        $class = '\\app\\controllers\\' . ucwords($ctrl) . 'Controller';
+        //TODO 优化访问的控制器类或者方法不存在时,路由问题以及默认路由
+        if (!class_exists($class)) {
+            $ctrl = $this->config['main']['default']['ctrl'];
+            $action = $this->config['main']['action'];
+            $class = '\\app\\controllers\\' . ucwords($ctrl) . 'Controller';
+            $obj = new $class($ctrl, $action);
+        } else {
+            $obj = new $class($ctrl, $action);
+        }
         $ctrlConfig = $this->config['main'];
         $decorators = [];
-        if (isset($ctrlConfig[$ctrlLow]['decorator'])) {
-            $conf_decorator = $ctrlConfig[$ctrlLow]['decorator'];
-            foreach ($conf_decorator as $class) {
-                $decorators[] = new $class;
+        //TODO 优化可以自定义某些控制器类的某些方法
+        if (!empty($ctrlConfig['default']['decorator']['list']) &&
+            !in_array($ctrlLow, $ctrlConfig['default']['decorator']['noUse'])
+        ) {
+            $conf_decorator = $ctrlConfig['default']['decorator']['list'];
+            foreach ($conf_decorator as $dec) {
+                $decorators[] = new $dec;
             }
         }
         foreach ($decorators as $decorator) {
